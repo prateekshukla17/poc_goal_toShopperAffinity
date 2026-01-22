@@ -2,7 +2,7 @@ import { Interface } from "readline";
 
 export interface Category {
   id: string;
-  names: string;
+  name: string;
   popularity: number;
 }
 
@@ -13,8 +13,8 @@ export interface Customer {
   createdAt: Date;
 }
 
-export interface orderItem {
-  categoryId: String;
+export interface OrderItem {
+  categoryId: string;
   quantity: number;
   price: number;
 }
@@ -22,7 +22,7 @@ export interface orderItem {
 export interface Order {
   id: string;
   customerId: string;
-  items: orderItem[];
+  items: OrderItem[];
   createdAt: Date;
   total: number;
 }
