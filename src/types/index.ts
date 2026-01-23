@@ -36,7 +36,7 @@ export interface CoOrderMatrix {
 
 export interface LiftMatrix {
   category: Array<string>;
-  matrix: Array<Array<Number>>;
+  matrix: Array<Array<number>>;
 }
 
 export interface NormalizedMatrix {
