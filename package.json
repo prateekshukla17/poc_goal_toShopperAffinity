@@ -5,7 +5,13 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/index.ts",
+    "generate-data": "npx tsx src/index.ts generate-data",
+    "build-matrix": "npx tsx src/index.ts build-matrix",
+    "calculate-affinity": "npx tsx src/index.ts calculate-affinity",
+    "report": "npx tsx src/index.ts report",
+    "list-categories": "npx tsx src/index.ts list-categories",
+    "reset": "npx tsx src/index.ts reset"
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
