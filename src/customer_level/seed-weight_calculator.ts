@@ -1,10 +1,9 @@
 import type {
   Order,
-  CustomerPurchaseHistory,
   SeedWeight,
   CategoryPurchaseInfo,
+  CustomerPurchaseHistory,
 } from "../types/index.js";
-
 import { log2 } from "../utils/math-utils.js";
 const RECENCY_BOOST_LAST_ORDER = 0.75;
 const RECENCY_BOOST_OLDER = 0.5;

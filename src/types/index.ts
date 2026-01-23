@@ -28,8 +28,8 @@ export interface Order {
 }
 
 export interface CoOrderMatrix {
-  category: string;
-  maxtrix: number[][];
+  category: string[];
+  matrix: number[][];
   totalOrders: number;
   orderCounts: Map<string, number>;
 }
